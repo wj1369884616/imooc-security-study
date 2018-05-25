@@ -3,7 +3,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     password: 123456
     username: root
-    url: jdbc:mysql://127.0.0.1:3306/security-demo?useUnicode=yes&characterEncoding=UTF-8&useSSL=false
+    url: jdbc:mysql://140.143.139.143:3306/security-demo?useUnicode=yes&characterEncoding=UTF-8&useSSL=false
     dbcp2:
       min-evictable-idle-time-millis: 180000
       test-on-borrow: true
@@ -19,6 +19,10 @@ spring:
 
   session:
     store-type: none
+  redis:
+      host: 140.143.139.143
+      port: 6379
+      password: 123456
 server:
   session:
     timeout: 600

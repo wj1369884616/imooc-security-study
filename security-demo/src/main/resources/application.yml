@@ -3,11 +3,11 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     password: 123456
     username: root
-    url: jdbc:mysql://127.0.0.1:3306/security-demo?useUnicode=yes&characterEncoding=UTF-8&useSSL=false
+    url: jdbc:mysql://140.143.139.143:3306/security-demo?useUnicode=yes&characterEncoding=UTF-8&useSSL=false
 
   session:
 #    设置spring-session存储类型
-    store-type: redis
+    store-type: none
 
 #  redis:
 #    host: 127.0.0.1
